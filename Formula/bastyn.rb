@@ -5,23 +5,23 @@ class Bastyn < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/BASTYN-labs/bastyn-scan/releases/download/v0.2.2/bastyn-v0.2.2-aarch64-apple-darwin.tar.gz"
-      sha256 "7834aabf1267fc6c69abd45c945a50626ef5b05ae1bf428f7f5db9f4b2618d32"
+      url "https://github.com/BASTYN-labs/bastyn-scan/releases/download/v0.3.0/bastyn-v0.3.0-aarch64-apple-darwin.tar.gz"
+      sha256 "ce8b3264e30e61ca808e7701ac2b3872456496799db9925a7ab6e045e14a91d7"
     end
     on_intel do
-      url "https://github.com/BASTYN-labs/bastyn-scan/releases/download/v0.2.2/bastyn-v0.2.2-x86_64-apple-darwin.tar.gz"
-      sha256 "b8e3403ba773ce08910f7c1741c5df3a4cf34dc40451e639ad37f7b34aa81db0"
+      url "https://github.com/BASTYN-labs/bastyn-scan/releases/download/v0.3.0/bastyn-v0.3.0-x86_64-apple-darwin.tar.gz"
+      sha256 "53777da4659a9db3d6e4db5ce50ba1d296cfc64f0cff460dc42dfd3b756d3c36"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/BASTYN-labs/bastyn-scan/releases/download/v0.2.2/bastyn-v0.2.2-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "3016b58fd0847e0b72c6e26322ddb35ab17dc0fd3bc09f57abcea62ac34a4bab"
+      url "https://github.com/BASTYN-labs/bastyn-scan/releases/download/v0.3.0/bastyn-v0.3.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "3165e03d966b50dc19db155847701144b261820850f3366e367c8d120e8bd4c8"
     end
     on_intel do
-      url "https://github.com/BASTYN-labs/bastyn-scan/releases/download/v0.2.2/bastyn-v0.2.2-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "79d794017b44c9337e0cbdaf27d61148f7caa1940b85ae4187a9371bcc04f5c8"
+      url "https://github.com/BASTYN-labs/bastyn-scan/releases/download/v0.3.0/bastyn-v0.3.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "134c600b1f43d8041779f662a5614370f51247d702b6f8bb93d5f389a5d1b84b"
     end
   end
 
